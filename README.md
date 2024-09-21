@@ -18,7 +18,7 @@ In a terminal window without elevated permissions, add your SSH private key to t
 #add key to .ssh folder - replace id_ed25519 with name of private key file. in your case - netauth_labs
 ssh-add c:/Users/YOU/.ssh/id_ed25519
 
-
+```
 /.ssh/config  #file update
 Host github.com-expertcloudconsultant
   HostName github.com
@@ -26,7 +26,7 @@ Host github.com-expertcloudconsultant
   IdentityFile "C:/Users/Samuel Oppong/.ssh/netauth_labs"
 
 
-
+```
 --> git remote set-url origin git@github.com-expertcloudconsultant:expertcloudconsultant/understanding-branching.git
 --> git push -u origin creating-first-file-local
 
