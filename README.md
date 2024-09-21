@@ -7,6 +7,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 In a new admin elevated PowerShell window, ensure the ssh-agent is running. You can use the "Auto-launching the ssh-agent" instructions in "Working with SSH key passphrases", or start it manually:
 
+```
 # start the ssh-agent in the background
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
@@ -27,8 +28,8 @@ Host github.com-expertcloudconsultant
 
 
 ```
---> git remote set-url origin git@github.com-expertcloudconsultant:expertcloudconsultant/understanding-branching.git
---> git push -u origin creating-first-file-local
+git remote set-url origin git@github.com-expertcloudconsultant:expertcloudconsultant/understanding-branching.git
+git push -u origin creating-first-file-local
 
 
 
