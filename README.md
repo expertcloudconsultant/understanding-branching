@@ -1,6 +1,24 @@
 # understanding-branching
 Practical Hands-On to Understanding Branching
 
+
+
+```
+PS C:\Users\Samuel Oppong\Downloads\webtel\revised-demo\app\understanding-branching> ssh-keygen -t ed25519 -C "email.address@hotmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (C:\Users\Samuel Oppong/.ssh/id_ed25519): ls
+
+
+    Directory: C:\understanding-branching
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/09/2024     21:24             16 first-local-file.txt
+-a----        21/09/2024     21:36            419 netauth_labs
+-a----        21/09/2024     21:36            108 netauth_labs.pub
+-a----        21/09/2024     21:21             74 README.md
+```
+
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
